@@ -2,6 +2,8 @@ from flask import Flask, render_template_string, request, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.orm import DeclarativeBase
 from datetime import datetime
+from flask import jsonify
+
 
 # Initialize Flask app and SQLAlchemy
 app = Flask(__name__)
